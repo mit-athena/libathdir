@@ -1,6 +1,0 @@
-#!/usr/bin/make -f
-
-export ATHENA_SYS=$(shell machtype -S)
-
-%:
-	dh $@ --with autoreconf
